@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改足迹</title>
+    <link rel="stylesheet" href="./css/operation.css">
+</head>
+<body>
+<div class="wapper">
+    <!-- 头部 -->
+    <header></header>
+    <!-- 内容区域 -->
+    <section>
+        <!-- 左侧栏 -->
+        <aside></aside>
+        <!-- 右侧栏 -->
+        <div class="tab">
+            <table border="1">
+                <tr>
+                    <th>
+                        <label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：</label>
+                    </th>
+                    <td colspan="2">
+                        <input type="text" id="title"><span id="tit"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="cont">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：</label>
+                    </th>
+                    <td colspan="2">
+                        <input type="text" id="cont"><span id="con"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th valign="top">
+                        <label for="file">上传图片：</label>
+                    </th>
+                    <td colspan="2">
+                        <input type="File" style="outline: none;" id="file">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <button id="update">修改</button>
+                    </td>
+                    <input type="hidden" id="isupd" value="true">
+                    <input type="hidden" id="fid">
+                </tr>
+            </table>
+        </div>
+    </section>
+</div>
+<script src="../jquery-3.2.1.js"></script>
+<script src="./js/fun.js"></script>
+<script src="./js/header.js"></script> 
+<script src="./js/upt-tracks.js"></script>
+</body>
+</html>

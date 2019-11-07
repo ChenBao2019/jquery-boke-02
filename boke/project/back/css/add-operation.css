@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color: #FF642C;
+}
+ul li{
+	list-style-type: none;
+}
+.wapper{
+	width: 100%;
+}
+.sec-add-head{
+	line-height: 50px;
+	background-color: #f2f2f2;
+	padding-left: 20px;
+	margin: 0 0 10px 0;
+}
+.tab table{
+	margin:0 auto;
+	width: 800px;
+	height: 480px;
+}
+.tab table th{
+	width: 240px;
+}
+.tab table input{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.tab table textarea{
+	margin-left: 20px;
+	border-radius: 5px;
+}
+.tab table button{
+	width: 200px;
+	height: 40px;
+	background-color: #aaa;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+}

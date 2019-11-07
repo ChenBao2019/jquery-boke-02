@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加推荐</title>
+    <link rel="stylesheet" href="./css/add-operation.css">
+</head>
+<body>
+<div class="wapper">
+    <!-- 头部= -->
+    <header></header>
+    <!-- 内容区域 -->
+    <section>
+		<!-- 头部导航栏 -->
+		<div class="sec-add-head">
+                <p><a href="./index.html">首页</a> > <a href="./study.html">学无止境</a> > 添加推荐</p>
+        </div>
+        <div class="tab">
+            <table border="1">
+				<tr>
+					<th>
+						<label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：</label>
+					</th>
+					<td colspan="2">
+						<input type="text" id="title"><span id="tit"></span>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="small_title">二级标题：</label>
+					</th>
+					<td colspan="2">
+						<input type="text" id="small_title"><span id="sma_tit"></span>
+					</td>
+				</tr>
+				<tr>
+					<th>
+						<label for="cont">简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：</label>
+					</th>
+					<td colspan="2">
+						<input type="text" id="cont"><span id="con"></span>
+					</td>
+				</tr>
+				<tr>
+					<th valign="top">
+						<label for="content">上传图片：</label>
+					</th>
+					<td colspan="2">
+						<input type="File" style="outline: none;" id="file">
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<button id="add">添加</button>
+					</td>
+					<input type="hidden" id="isadd" value="false">
+				</tr>
+			</table>
+        </div>
+    </section>
+</div>
+<script src="../jquery-3.2.1.js"></script>
+<script src="./js/fun.js"></script>
+<script src="./js/header.js"></script>
+<script src="./js/addstudy.js"></script>
+</body>
+</html>

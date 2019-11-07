@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li{
+	list-style-type: none;
+}
+.wapper{
+	width: 100%;
+}
+/* 内容区域 */
+section{
+	display: flex;
+	justify-content: space-between;
+}
+/*右侧默认内容模块*/
+.model{
+	width: 100%;
+	background-color: #f2f2f2;
+}
+/*头部*/
+.model-head{
+	width: 100%;
+	line-height: 50px;
+	border-bottom: 2px solid #fff;
+	padding-left: 20px;
+}
+/*内容区域*/
+.model-sec{
+	width: 100%;
+}
+/*标题*/
+.model-sec p{
+	font-weight: bold;
+}
+/*快捷操作*/
+.model-sec .quick{
+	width: 100%;
+	padding: 10px 0 10px 20px;
+	border-bottom: 2px solid #fff;
+}
+.model-sec .add{
+	margin-top: 10px;
+}
+.model-sec .add li{
+	float: left;
+	margin-right: 40px;
+}
+.model-sec .add li a{
+	color: #FF642C;
+}
+.model-sec .quick::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*系统基本信息*/
+.model-sec .ess{
+	width: 100%;
+	padding-left: 20px;
+}
+.model-sec .ess table{
+	margin-left: 50px;
+}
+.model-sec .ess table tr{
+	height: 50px;
+}
+.model .ess table .right{
+	text-align: right;
+}
+.model .ess table span{
+	font-weight: bold;
+}

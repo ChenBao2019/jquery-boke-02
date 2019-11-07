@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ul li{
+	list-style-type: none;
+}
+.wapper{
+	width: 100%;
+	min-width: 825px;
+}
+/* 内容区域 */
+section{
+	display: flex;
+	justify-content: space-between;
+}
+/* 博文管理模块 */
+.model{
+	width: 100%;
+	background-color: #f2f2f2;	
+}
+.model a{
+	color: #FF642C;
+}
+/*头部导航栏*/
+.model-head{
+	width: 100%;
+	line-height: 51px;
+	border-bottom: 2px solid #fff;
+}
+.model-head p{
+	padding-left: 20px;
+	margin:0;
+}
+.model-head a{
+	font-size: 16px;
+	margin-right:10px;
+}
+/*查询模块*/
+.model-sel{
+	padding: 10px 0 10px 20px;
+	border-bottom: 2px solid #fff;
+}
+.model-sel input{
+	height: 28px;	
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+}
+.model-sel button{
+	width: 80px;
+	height: 28px;
+}
+/*列表显示模块*/
+.model-list{
+	width: 80%;
+	padding:10px 0 10px 20px;
+}
+.model-list table{
+	width: 100%;
+}
+.model-list table .item-w1{
+	min-width: 35px;
+}
+.model-list table .item-w2{
+	min-width: 82px;
+}

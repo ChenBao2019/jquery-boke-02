@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学无止境</title>
+    <link rel="stylesheet" href="./css/operation.css">
+</head>
+<body>
+<div class="wapper">
+    <!-- 头部 -->
+    <header></header>
+    <!-- 内容区域 -->
+    <section>
+        <!-- 菜单栏 -->
+        <aside></aside>
+        <!-- 右侧内容区域 -->
+        <div class="model">
+            <!-- 头部导航栏 -->
+            <div class="model-head">
+                <p><a href="./index.html">首页</a> > 学无止境</p>
+            </div>
+            <!-- 查询模块 -->
+            <div class="model-sel">
+                <div class="sel">
+                    <label for="lid">推荐学习编号：</label>
+                    <input type="text" id="lid" placeholder="请输入推荐编号">
+                    <button>查询</button>
+                </div>
+                <div id="selects"></div>
+            </div>
+            <!-- 列表显示模块 -->
+            <div class="model-list" id="list">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th class="item-w1">编号</th>
+                            <th>标题</th>
+                            <th>二级标题</th>
+                            <th>简介</th>
+                            <th>图片</th>
+                            <th>时间</th>
+                            <th class="item-w2">
+                                <span>操作</span>
+                                <span>
+                                    <a href="./add-study.html">新增</a>
+                                </span>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="../jquery-3.2.1.js"></script>
+<script src="./js/fun.js"></script>
+<script src="./js/header.js"></script>
+<script src="./js/aside.js"></script>
+<script src="./js/study.js"></script>
+</body>
+</html>
